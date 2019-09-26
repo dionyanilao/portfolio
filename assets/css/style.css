@@ -1,0 +1,122 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'DM Serif Display', serif;
+}
+
+.profile-picture{
+	width: 70vh;
+	border-radius: 20px;
+	margin-top: 20px;
+	margin-left: 483px;
+	
+	box-shadow: 10px 10px lightgray;
+
+
+}
+.greetings{
+
+	margin-left: 380px;
+
+
+}
+.text{
+	color: red;
+}
+.para{
+	font-size: 20px;
+
+}
+.logos{
+	width: 20vh;
+	height: 15vh;
+	margin-top: 20px;
+	margin-left: 90px;
+}
+.lw{
+	width: 100vh;
+
+}
+.ws{
+	width: 90vh;
+	margin-left: 450px;
+	margin-top: 10px;
+
+	
+}
+.resume{
+	width: 90vh;
+	margin-left: 450px;
+	margin-top: 20px;
+
+}
+#cardresume{
+	
+	height: 300px;
+	margin-bottom: 30px;
+	height: 350px;
+}
+.card-resume{
+	margin: auto;
+
+}
+.name{
+	margin-left: 20px;
+	margin-top: 5px;
+}
+ul{
+	list-style-type: none;
+	margin-left: 200px;
+}
+.pp{
+	padding: 20px;
+}
+
+.about{
+	
+}
+body{
+	background-color: rgba(187,187,187,0.2);
+	overflow-x: hidden;
+}
+.about-me-paragraph{
+	padding: 50px;
+	font-size: 20px;
+}
+.do	{
+	margin-left: 400px;
+	margin-top: 10px;
+}
+.fb-logo{
+	width: 7vh;
+	margin-top: 20px;
+
+
+}
+.logo{
+margin-left: 590px;
+}
+.card{
+	margin-left: 3px;
+	padding: 5px;
+	height: 360px;
+}
+.cards{
+	margin:auto;
+}
+.logos {
+  padding: 50px;
+  transition: transform .2s; /* Animation */
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.logos:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+
+
+
