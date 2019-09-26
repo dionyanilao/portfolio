@@ -51,9 +51,9 @@
 	margin-top: 20px;
 
 }
-#cardresume{
+.cardresume{
 	
-	height: 300px;
+	height: 200px;
 	margin-bottom: 30px;
 	height: 350px;
 }
@@ -64,6 +64,9 @@
 .name{
 	margin-left: 20px;
 	margin-top: 5px;
+}
+.l{
+	margin-left: 180px;
 }
 ul{
 	list-style-type: none;
@@ -118,5 +121,142 @@ margin-left: 590px;
 }
 
 
+/*phone*/
+@media only screen and (max-width:400px){
+body{
+	overflow-x: hidden;
+}
+.profile-picture{
+	width: 40vh;
+	border-radius: 20px;
+	margin-top: 20px;
+	margin-left:50px;
+	
+	box-shadow: 10px 10px lightgray;
+}
+.para{
+	font-size: 9px;
+}
+.greetings{
+
+	margin-left: 35px;
+
+}
+.logo{
+margin-left: 90px;
+}
+.lw{
+	width: 40vh;
+
+}
+.do	{
+	margin-left: 60px;
+	margin-top: 10px;
+}
+.logos{
+width: 30vh;
+margin-right: 1000px;
+}
+.table{
+	margin-left: 100px;
+}
+.table2{
+	margin-left: 100px;
+}
+.name{
+	margin-right: 35px;
+	margin-left: 70px;
+}
+
+.ws{
+	width: 40vh;
+	margin-left: 80px;
+	margin-top: 10px;
+}
+.card3{
+	margin-left: 40px;
+	padding: 5px;
+	height: 360px;
+	margin-top: 5px;
+}
+.resume{
+	width: 40vh;
+	margin-left: 80px;
+	margin-top: 20px;
+
+}
 
 
+.cardpic{
+	width: 300px;
+	visibility: visible;
+	margin-left: 23px;
+}
+.cardresume{
+	
+	height: 10px;
+	visibility: hidden;
+}
+}
+
+
+
+/*tablet*/
+@media only screen and (min-width: 401px) and (max-width:960px){
+
+body{
+	overflow-x: hidden;
+}
+	.profile-picture{
+	width: 50vh;
+	border-radius: 20px;
+	margin-top: 20px;
+	margin-left:120px;
+	
+	box-shadow: 10px 10px lightgray;
+}
+.para{
+	font-size: 15px;
+}
+.greetings{
+
+	margin-left: 140px;
+
+}
+.logo{
+margin-left: 200px;
+}
+.lw{
+	width: 50vh;
+
+}
+.do	{
+	margin-left: 100px;
+	margin-top: 10px;
+}
+.logos{
+
+}
+.ws{
+	width: 50vh;
+	margin-left: 140px;
+	margin-top: 10px;
+}
+.card3{
+	margin-left: 250px;
+	padding: 5px;
+	height: 360px;
+	margin-top: 5px;
+}
+.resume{
+	width: 50vh;
+	margin-left: 140px;
+	margin-top: 20px;
+
+}
+
+.card-resume{
+	margin:auto;
+
+}
+}
